@@ -147,7 +147,7 @@ async def set_timer(client, message):
                     finish_countdown = await get_user_input_time.edit(Countdown_TeLe_TiPs)
                     await asyncio.sleep(1)
                     user_input_time -=1
-                await finish_countdown.edit("🚨 PRIVATE SALE STARTED!!!**")
+                await finish_countdown.edit("🚨 AIRDROP CONTEST STARTED!!!**")
             elif 10<user_input_time<60:
                 while user_input_time>0 and not stoptimer:
                     s=user_input_time%60
@@ -155,7 +155,7 @@ async def set_timer(client, message):
                     finish_countdown = await get_user_input_time.edit(Countdown_TeLe_TiPs)
                     await asyncio.sleep(3)
                     user_input_time -=3
-                await finish_countdown.edit("🚨 PRIVATE SALE STARTED!!!**")
+                await finish_countdown.edit("🚨 AIRDROP CONTEST STARTED!!!**")
             elif 60<=user_input_time<3600:
                 while user_input_time>0 and not stoptimer:
                     m=user_input_time%3600//60
@@ -164,7 +164,7 @@ async def set_timer(client, message):
                     finish_countdown = await get_user_input_time.edit(Countdown_TeLe_TiPs)
                     await asyncio.sleep(3)
                     user_input_time -=3
-                await finish_countdown.edit("🚨 PRIVATE SALE STARTED!!!**")
+                await finish_countdown.edit("🚨 AIRDROP CONTEST STARTED!!!**")
             elif 3600<=user_input_time<86400:
                 while user_input_time>0 and not stoptimer:
                     h=user_input_time%(3600*24)//3600
@@ -174,7 +174,7 @@ async def set_timer(client, message):
                     finish_countdown = await get_user_input_time.edit(Countdown_TeLe_TiPs)
                     await asyncio.sleep(7)
                     user_input_time -=7
-                await finish_countdown.edit("🚨 PRIVATE SALE STARTED!!!**")
+                await finish_countdown.edit("🚨 AIRDROP CONTEST STARTED!!!**")
             elif user_input_time>=86400:
                 while user_input_time>0 and not stoptimer:
                     d=user_input_time//(3600*24)
@@ -185,7 +185,7 @@ async def set_timer(client, message):
                     finish_countdown = await get_user_input_time.edit(Countdown_TeLe_TiPs)
                     await asyncio.sleep(9)
                     user_input_time -=9
-                await finish_countdown.edit("🚨 PRIVATE SALE STARTED!!!**")
+                await finish_countdown.edit("🚨 AIRDROP CONTEST STARTED!!!**")
             else:
                 await get_user_input_time.edit(f"🤷🏻‍♂️ I can't countdown from {user_input_time}")
                 await get_user_input_time.unpin()
